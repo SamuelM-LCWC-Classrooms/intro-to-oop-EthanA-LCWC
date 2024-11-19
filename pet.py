@@ -6,4 +6,5 @@ class Pet:
     def describe(self):
         print(f"This is {self.name}, a {self.species} who is {self.age} years old.")
     def celebrate_birthday(self):
+        self.name += 1
         print(f"Happy Birthday {self.name}! You are now {self.age} years old!")
